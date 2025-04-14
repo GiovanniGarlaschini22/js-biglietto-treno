@@ -15,6 +15,7 @@
 
 // chiedere all'utente il numero di chilometri che vuole percorrere;
 // chiedere all'utente l'età del passeggero;
+// il prezzo del biglietto è definito in base ai km (0.21 € al km);
 
 // FINE RACCOLTA DATI //
 
@@ -22,9 +23,6 @@
 // ESECUZIONE LOGICA //
 
 /**
- * chiedere all'utente il numero di chilometri che vuole percorrere
- * chiedere all'utente l'età del passeggero
- 
  * se il passeggero é minorenne
  *      applico uno sconto del 20%
   
@@ -39,3 +37,15 @@
 
 
 // OUTPUT //
+// L'output del prezzo finale va stampato in forma umana (con massimo due decimali, per indicare centesimi sul prezzo).
+
+
+
+
+// RACCOLTA DATI //
+const chilometri = prompt ("digita i chilometri da percorrere");
+console.log(chilometri);
+
+const etàPasseggero = prompt ("digita l'età del passeggero");
+console.log(etàPasseggero);
+// RACCOLTA DATI //
