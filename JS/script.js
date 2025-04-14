@@ -48,4 +48,17 @@ console.log(chilometri);
 
 const etàPasseggero = prompt ("digita l'età del passeggero");
 console.log(etàPasseggero);
+
+const prezzoBiglietto = "Prezzo del biglietto";
+console.log(prezzoBiglietto);
 // RACCOLTA DATI //
+
+
+// ESECUZIONE LOGICA //
+if (etàPasseggero < 18) {
+    console.log(chilometri * 20 / 100)
+} else if (etàPasseggero > 18 <= 65) {
+    console.log(chilometri * 0,21)
+} else if (etàPasseggero >= 65) {
+    console.log(chilometri * 40 / 100)
+}
