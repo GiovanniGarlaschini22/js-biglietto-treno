@@ -55,10 +55,10 @@ console.log(prezzoBiglietto);
 
 
 // ESECUZIONE LOGICA //
-if (etàPasseggero < 18) {
+if (etàPasseggero <18) {
     console.log(chilometri * 20 / 100)
-} else if (etàPasseggero > 18 <= 65) {
+} else if (etàPasseggero >=18 && etàPasseggero <=65) {
     console.log(chilometri * 0,21)
-} else if (etàPasseggero >= 65) {
+} else if (etàPasseggero >=65) {
     console.log(chilometri * 40 / 100)
 }
